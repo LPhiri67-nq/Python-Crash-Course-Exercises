@@ -106,8 +106,8 @@ length_of_string_2 = len(sample_string)
 
 empty_string = ""
 
-for letter in sample_string:
-    empty_string.
+
+
 
 
 
