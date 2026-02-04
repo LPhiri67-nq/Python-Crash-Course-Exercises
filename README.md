@@ -16,10 +16,8 @@ Here're some of the project's best features:
 *   File handling & exceptions: Reading/writing files and managing errors gracefully.
 *   Object‑oriented programming: Classes objects inheritance and encapsulation.
 *   Algorithmic challenges: Problem‑solving exercises to build computational thinking.
-*   Mini‑projects & practice scripts: Small practical programs reflecting real‑world scenarios.      
-
-<p></p>
-
+*   Mini‑projects & practice scripts: Small practical programs reflecting real‑world scenarios.
+*         
 
 
 This repository is open for anyone who wants to explore or practice core Python concepts. You are welcome to browse the exercises, run the scripts, or adapt the code to suit your own learning journey. Whether you're reviewing fundamentals, sharpening problem-solving skills, or seeking simple templates to build upon, this repository is structured to make it easy to compare approaches and experiment. Feel free to clone the project, try out the exercises, and use the material as a reference as as you continue developing your Python proficiency.
