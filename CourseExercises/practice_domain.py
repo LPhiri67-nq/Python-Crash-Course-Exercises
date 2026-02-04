@@ -102,9 +102,59 @@ for index in range(0, length_of_string - 1, 2):
 
 sample_string = input("Enter a string: ")
 
-length_of_string_2 = len(sample_string)
 
-empty_string = ""
+# Exercise 5: Variable Swapping (The In-pace Method)
+
+# Problem: Write a program to swap the values of two variables, a and b, without using a third temporary variable
+# Purpose: This exercise will help you learn about memory efficiency and Python's special tuple unpacking feature.
+# In other languages like C or Java, you need a temporary variable to swap values safely.
+# In Python, you can swap values in one line without risking data loss.
+
+
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+
+print(f" Before swap a = {a}, b = {b}")
+
+if a == b:
+    print(f" After swap a = {a}, b = {a}")
+else:
+    print(f" After swap a = {b}, b = {a}")
+
+
+# Alternatively:
+
+
+# Simultaneous assignment (Tuple Unpacking)
+a, b = b, a
+
+print(f" After swap a = {a}, b = {b}")
+
+# Simultaneous Evaluation: Python evaluates the entire right side (b, a) first, essentially holding both values...
+#...essentially holding both values in a temporary hidden structure (a tuple).
+
+# Assignment: It then unpacks those values into the variables on the left.
+# This prevents the values of a from being overwritten by 'b' before its original value can be moved.
+
+#Clean code: This eliminates the need for three lines of code and an extra "temp" variable, making the script more readable.
+
+
+# Exercise 6: Calculating Factorial with a Loop
+
+# Problem: Write a program that calculates the factorial of a given number (e.g., 5!) using a for loop.
+# Purpose: This exercise explores "Mathematical Accumulation." A factorial (e.g., 5! = 5*4*3*2*1) requires you...
+#...to maintain a running product across multiple iterations, which is a core pattern in scientific computing.
+
+input_number = int(input("Enter a number to calculate its factorial: "))
+
+size = len(str(input_number))
+
+for integer in range(1, size + 1):
+    factorial = input_number ** integer
+
+
+
+
 
 
 
