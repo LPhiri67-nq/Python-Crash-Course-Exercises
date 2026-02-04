@@ -1,5 +1,4 @@
 # Python EXTRA Exercises
-from unittest import skip
 
 # Exercise 1: Arithmetic Product and Conditional Logic
 
