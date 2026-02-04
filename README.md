@@ -20,6 +20,8 @@ Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
+This repository is open for anyone who wants to explore or practice core Python concepts. You are welcome to browse the exercises, run the scripts, or adapt the code to suit your own learning journey. Whether you're reviewing fundamentals, sharpening problem-solving skills, or seeking simple templates to build upon, this repository is structured to make it easy to compare approaches and experiment. Feel free to clone the project, try out the exercises, and use the material as a reference as as you continue developing your Python proficiency.
+
 <p>1. Clone the repository: use 'git clone' followed by the repository URL to download it to your local machine.</p>
 
 ```
@@ -50,7 +52,7 @@ Run:  macOS/Linux: python3 -m venv venv
       venv\Scripts\activate
 ```
 
-<p>7. Install dependencies</p>
+<p>4. Install dependencies</p>
 
 ```
 If your project includes a requirements.txt file:
@@ -60,7 +62,7 @@ If your project includes a requirements.txt file:
 pip install -r requirements.txt
 ```
 
-<p>9. Run the exercises or scripts</p>
+<p>5. Run the exercises or scripts</p>
 
 ```
 Execute any file with: python path/to/file.py
