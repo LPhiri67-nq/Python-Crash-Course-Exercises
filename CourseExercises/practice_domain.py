@@ -139,31 +139,145 @@ print(f" After swap a = {a}, b = {b}")
 #Clean code: This eliminates the need for three lines of code and an extra "temp" variable, making the script more readable.
 
 
-# Exercise 6: Calculating Factorial with a Loop
-
-# Problem: Write a program that calculates the factorial of a given number (e.g., 5!) using a for loop.
-# Purpose: This exercise explores "Mathematical Accumulation." A factorial (e.g., 5! = 5*4*3*2*1) requires you...
-#...to maintain a running product across multiple iterations, which is a core pattern in scientific computing.
-
-input_number = int(input("Enter a number to calculate its factorial: "))
-
-size = len(str(input_number))
-
-for integer in range(1, size + 1):
-    factorial = input_number ** integer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Exercise 6: Calculating Factorial with a Loop                                      
+                                                                                     
+# Problem: Write a program that calculates the factorial of a given number (e.g., 5!)
+# Purpose: This exercise explores "Mathematical Accumulation." A factorial (e.g., 5! 
+#...to maintain a running product across multiple iterations, which is a core pattern
+                                                                                     
+                                                                                     
+input_number = int(input("Enter a number to calculate its factorial: "))             
+                                                                                     
+                                                                                     
+# FIRST TRIAl                                                                        
+factorial = 1                                                                        
+                                                                                     
+for integer in range(1, input_number):                                               
+    product_each_round = factorial * (integer + 1)                                   
+    factorial = product_each_round                                                   
+print(f"The factorial of {input_number} is {factorial}")                             
+                                                                                     
+# Loop from 1 to input_number(inclusive)                                             
+                                                                                     
+# range(1, input_number + 1): Since the end of a range is exclusive, we use + 1 to en
+# Each pass of the loop updates the value of 'factorial', building the final result s
+for integer in range(1, input_number + 1):                                           
+    factorial = factorial * integer                                                  
+print(f"The factorial of {input_number} is {factorial}")                             
+                                                                                     
+                                                                                     
+# Exercise 7: List manipulation - Add and Remove                                     
+# Problem: Create a list of 5 fruits.                                                
+# Add a new fruit to the end of the list, then remove the second fruit (at index 1)  
+                                                                                     
+# Purpose: This exercise teaches "Dynamic Collection Management".                    
+# Lists are rarely static; being able to modify, expand, and prune them is essential 
+# ...user lists, or inventory systems.                                               
+                                                                                     
+                                                                                     
+# List of fruits                                                                     
+fruits = ["apples", "bananas", "cherry", "date", "elderberry"]                       
+print(fruits)                                                                        
+                                                                                     
+del fruits [1]                                                                       
+fruits.append("fig")                                                                 
+print (fruits)                                                                       
+                                                                                     
+                                                                                     
+# Exercise String Reversal                                                           
+# Problem: Write a program that takes a string and reverses it (e.g., "Python" become
+# Purpose: This exercise demonstrates "Sequence Slicing."                            
+# Strings in Python are sequences, and mastering the slicing syntax is a powerful sho
+# ...that would take 5-10 lines of code in other languages.                          
+                                                                                     
+                                                                                     
+# Reversing using slicing                                                            
+                                                                                     
+user_input_1 =  input("Enter a word: ")                                              
+                                                                                     
+reversed_text = user_input_1[: :-1]                                                  
+                                                                                     
+print (f"Original: {user_input_1}")                                                  
+print (f"Reversed: {reversed_text}")                                                 
+                                                                                     
+                                                                                     
+                                                                                     
+# Alternative Method:                                                                
+                                                                                     
+user_input_2 = input("Enter a word: ")                                               
+                                                                                     
+size = len(user_input_2)                                                             
+                                                                                     
+reversed_output_list = []                                                            
+                                                                                     
+for index in range(0, size):                                                         
+    reversed_output_list.append(user_input_2[index])                                 
+                                                                                     
+reversed_output_list.reverse()                                                       
+                                                                                     
+                                                                                     
+final_output =  " "                                                                  
+for chars in reversed_output_list:                                                   
+    final_output += chars                                                            
+                                                                                     
+print(f"Original word: {user_input_2}, Reversed: {final_output}")                    
+                                                                                     
+                                                                                     
+                                                                                     
+# Exercise 9: Vowel Frequency Counter                                                
+                                                                                     
+# Problem: Write a program to count the total number of vowels ($a, e. i, o, u$).    
+# Purpose: This exercise introduces "Membership Testing".                            
+# By checking if a character belongs to a specific group (the vowels), you learn how 
+# This is a fundamental step toward building text-analysis tools or spam filters.    
+                                                                                     
+sentence = input("Enter a sentence: ")                                               
+                                                                                     
+vowels = "aeiou"                                                                     
+                                                                                     
+count = 0                                                                            
+                                                                                     
+for chars in sentence:                                                               
+    if chars in vowels:                                                              
+        count += 1                                                                   
+                                                                                     
+print(f"Number of vowels = {count}")                                                 
+                                                                                     
+# Alternative:                                                                       
+sentence_2 = input("Enter a sentence: ")                                             
+size = len(sentence)                                                                 
+chars_list = []                                                                      
+                                                                                     
+for index in range(0, size):                                                         
+    chars_list.append(sentence[index])                                               
+                                                                                     
+vowels = ""                                                                          
+non_vowel_characters = ""                                                            
+                                                                                     
+for chars in chars_list:                                                             
+    if chars == 'a' or chars == 'e' or chars == 'i' or chars == 'o' or  chars == 'u':
+     vowels += chars                                                                 
+    else:                                                                            
+        non_vowels_characters += chars                                               
+                                                                                     
+number_of_vowels = len(vowels)                                                       
+                                                                                     
+print (f"Number of vowels: {number_of_vowels}")                                      
+                                                                                     
+                                                                                     
+# Exercise 10: Finding Extremes (Min/Max) in a List                                  
+                                                                                     
+# Problem: Given a list of integers, find and print both the largest and the smallest
+# Purpose: This exercise explores "Aggregate Functions".                             
+# While Python has built-in tools, understanding how to identify extremes is critical
+#...to find the range of a dataset before processing it.                             
+                                                                                     
+# List of numbers                                                                    
+                                                                                     
+nums = [45, 2, 89, 12, 7]                                                            
+max_value = max(nums)                                                                
+min_value = min(nums)                                                                
+print(f" Largest: {max_value}, Smallest: {min_value}")                               
+                                                                                     
+                                                                                     
+                                                                                                                                                                         
