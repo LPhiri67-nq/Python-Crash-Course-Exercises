@@ -146,7 +146,7 @@ print(name_of_cars_from_a_to_g)
 
 
 print("\nHere is the new sorted list: ")
-temp = " "
+
 temp = name_of_cars_from_a_to_g[0]
 name_of_cars_from_a_to_g[0] = name_of_cars_from_a_to_g[-1]
 name_of_cars_from_a_to_g[-1] = temp
