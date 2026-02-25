@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f7b2e5-c71e-431f-996c-38fb2b35f6d6" name="Changes" comment="Updated Changes">
-      <change beforePath="$PROJECT_DIR$/CourseExercises/data_structures_1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseExercises/data_structures_1.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseExercises/program_testing_domain.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseExercises/program_testing_domain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseExercises/loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseExercises/loops.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771677053688</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Changes">
+      <option name="closed" value="true" />
+      <created>1771677555064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771677555064</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated Changes">
+      <option name="closed" value="true" />
+      <created>1771677599772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771677599772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

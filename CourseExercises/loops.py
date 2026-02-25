@@ -1,12 +1,20 @@
+# Working with Lists - Chapter 4
+from CourseExercises.data_structures import favourite_movies
+
+# Looping Through an Entire List
+
+# Looping allows you take the same action, or set of actions, with every item in a list.
+
+
 # For Loops
 
 # Exercise 4.1: Pizzas
 # Think of at least three kinds of your favorite pizza.
 # Store these pizza names in a list, and then use a for loop to print the name of each pizza.
 
-favorite_pizzas = ["Hawaiian", "Chicken Supreme", "Pepperoni"]
+favourite_pizzas = ["Hawaiian", "Chicken Supreme", "Pepperoni"]
 
-for pizza in favorite_pizzas:
+for pizza in favourite_pizzas:
     print(pizza)
 # Modify your for loop to print a sentence using the name of the pizza, instead of printing just the name of the pizza.
 # For each pizza, you should have one line of output containing a simple statement like "I like pepperoni pizza."
@@ -84,3 +92,83 @@ for value in list_of_cubes:
 cubes = [value ** 3 for value in range(1, 11)]
 print(cubes)
 
+
+# Working with Part of a list
+
+# Slices
+# Create a list of items, and add several lines to the end of the program that do the following:
+
+# 1.) Print the message " The first three items in the list are: ".
+# Then use a slice to print the first three items from that program's list.
+
+# List reference: reptiles
+
+reptiles_2 = ["Crocodile", "Snakes", "Worm Lizard", "Tortoise", "Caimans", "Gavialis", "Lizards"]
+
+print("The first three items in the list are: ")
+print(reptiles_2[:3])
+
+
+
+# 2.) Print the message " Three items from the middle of the list are: "
+# Then use a slice to print three items from the middle of the list.
+print("Three items from the middle of the list are: ")
+print(reptiles_2[2:5])
+
+
+# 3.) Print the message " The last three items in the list are: "
+# Then use a slice to print the last three items in the list.
+print("The last three items in the list are: ")
+print(reptiles_2[4:])
+
+
+
+
+# Exercise 4-11: My Pizzas, Your Pizzas: Start with your program from Exercise 4-1
+
+# Make a copy of the list pizzas, and call it friend_pizzas.
+
+friend_pizzas = favourite_pizzas[:]
+
+# Add a new pizza to the original list.
+
+favourite_pizzas.append("Triple Cheese")
+
+# Add a different pizza to the list friend_pizzas
+
+friend_pizzas.append("Margarita")
+
+# Prove that you have two separate lists.
+# Print the message " My favourite pizzas are: "
+
+print("My favourite pizzas are: ")
+print(favourite_pizzas)
+
+# Print the message " My friend’s favorite pizzas are: "
+print("\nMy friend’s favorite pizzas are: ")
+print(f"{friend_pizzas}\n")
+
+# Use a for loop to print the second list.
+
+for pizza in friend_pizzas:
+    print(pizza)
+
+
+
+#  Exercise 4-12. More Loops
+#  All versions of "foods.py" in the chapter section have avoided using for loops when printing, to save space.
+#  Choose a version of "foods.py", and write two for loops to print each list of foods
+
+my_foods = ['pizza', 'falafel', 'carrot cake']
+
+friend_foods = my_foods[:]
+
+my_foods.insert(1, "spaghetti")
+friend_foods.append("cheese cake")
+
+
+for food in my_foods:
+    print("My favourite food is: " + food + "\n")
+
+for food_2 in friend_foods:
+    print("\nMy friend's favourite food is: " + food_2)
