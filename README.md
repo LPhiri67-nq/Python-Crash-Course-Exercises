@@ -95,7 +95,7 @@ Use this approach when PyCharm has just launched and no project is currently ope
 3. Choose the **Directory** where the project should be stored locally.  
 4. Click **Clone** to download and open the project.
 
----
+
 
 ## Method 2: Clone From Inside an Existing Project
 
@@ -111,4 +111,4 @@ Use this when you already have a project open but want to clone another reposito
 
 ---
 
-If you'd like, I can also add badges, installation instructions, or a project overview to turn this into a full README for GitHub.
+
