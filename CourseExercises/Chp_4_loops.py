@@ -1,5 +1,5 @@
 # Working with Lists - Chapter 4
-from CourseExercises.data_structures import favourite_movies
+from CourseExercises.Chp_3_data_structures import favourite_movies
 
 # Looping Through an Entire List
 

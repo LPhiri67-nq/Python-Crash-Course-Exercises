@@ -1,5 +1,5 @@
 # Data Structures: Lists
-import
+import Chp_3_data_structures
 
 
 
@@ -52,9 +52,10 @@ print(places_to_be)
 # Working with one of the programs from Exercises 3-4 through 3-7 (pages 41–42).
 # Use len() to print a message indicating the number of people you’re inviting to dinner.
 
-print(invitees)
+number_of_invitees = Chp_3_data_structures.invitees
+print(number_of_invitees)
 
-number_of_invitees = len(invitees)
+number_of_invitees = len(number_of_invitees)
 
 print(number_of_invitees)
 
