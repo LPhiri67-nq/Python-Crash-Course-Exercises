@@ -81,7 +81,7 @@ Execute any file with: python path/to/file.py
 <h2> Cloning a Repository in PyCharm (IDE) </h2><br />
 
 <br />
-A clear, ready‑to‑use README-style guide for cloning a Git repository in PyCharm using two different methods. <br />
+Cloning the Git repository in PyCharm using two different methods. <br />
 
 <br />
 
