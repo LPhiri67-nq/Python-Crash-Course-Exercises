@@ -1,7 +1,8 @@
 # Data Structures: Lists
-from traceback import print_tb
+import
 
-from CourseExercises.data_structures import invitees
+
+
 
 # Exercise 3.8: Seeing the World
 
