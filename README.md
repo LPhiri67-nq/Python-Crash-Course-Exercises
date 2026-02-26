@@ -112,6 +112,5 @@ Use this when you already have a project open but want to clone another reposito
 5. When prompted, choose whether to open the project in a **New Window** or the **Current Window**.  
    - **New Window** is usually the safer option to keep projects separate.
 
----
 
 
