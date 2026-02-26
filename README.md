@@ -20,8 +20,9 @@ Here're some of the project's best features:
 
 <h2>  </h2>
 
-This repository is open for anyone who wants to explore or practice core Python concepts. You are welcome to browse the exercises, run the scripts, or adapt the code to suit your own learning journey. Whether you're reviewing fundamentals, sharpening problem-solving skills, or seeking simple templates to build upon, this repository is structured to make it easy to compare approaches and experiment. Feel free to clone the project, try out the exercises, and use the material as a reference as as you continue developing your Python proficiency.
+This repository is open for anyone who wants to explore or practice core Python concepts. You are welcome to browse the exercises, run the scripts, or adapt the code to suit your own learning journey. Whether you're reviewing fundamentals, sharpening problem-solving skills, or seeking simple templates to build upon, this repository is structured to make it easy to compare approaches and experiment. Feel free to clone the project, try out the exercises, and use the material as a reference as as you continue developing your Python proficiency. <br />
 
+<br />
 
 <h2>🛠️ Installation Steps (Local):</h2>
 
@@ -73,9 +74,10 @@ Execute any file with: python path/to/file.py
 
 ```
 
----
+--- <br />
 
-  
+<br />
+
 <h2> Cloning a Repository in PyCharm (IDE) </h2><br />
 
 <br />
