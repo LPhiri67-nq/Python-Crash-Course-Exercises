@@ -70,8 +70,10 @@ pip install -r requirements.txt
 
 ```
 Execute any file with: python path/to/file.py
+
 ```
 
+<h2>  </h2>
 
   
 <h2> Cloning a Repository in PyCharm (IDE) </h2>
