@@ -84,8 +84,7 @@ A clear, ready‑to‑use README-style guide for cloning a Git repository in PyC
 
 
 
-[space][space]
-
+<br>
 ## Method 1: Clone From the Welcome Screen (No Project Open)
 
 
