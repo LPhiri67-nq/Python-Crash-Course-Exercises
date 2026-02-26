@@ -89,10 +89,12 @@ Use this approach when PyCharm has just launched and no project is currently ope
 1. Select **Get from VCS** in the top-right corner of the Welcome window.  
 2. In the **URL** field, paste your repository link (e.g., `https://github.com/username/repo-name.git`).  
 3. Choose the **Directory** where the project should be stored locally.  
-4. Click **Clone** to download and open the project.
+4. Click **Clone** to download and open the project. <br />
+
+<br />
 
 
-```
+
 ## Method 2: Clone From Inside an Existing Project
 
 Use this when you already have a project open but want to clone another repository into a separate window.
