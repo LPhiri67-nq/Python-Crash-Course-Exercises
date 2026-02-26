@@ -25,6 +25,7 @@ This repository is open for anyone who wants to explore or practice core Python 
 
 <h2>🛠️ Installation Steps:</h2>
 
+
 <p>1. Clone the repository: use 'git clone' followed by the repository URL to download it to your local machine.</p>
 
 ```
@@ -70,3 +71,38 @@ pip install -r requirements.txt
 ```
 Execute any file with: python path/to/file.py
 ```
+
+
+
+# Cloning a Repository in PyCharm
+
+A clear, ready‑to‑use README-style guide for cloning a Git repository in PyCharm using two different methods.
+
+---
+
+## Method 1: Clone From the Welcome Screen (No Project Open)
+
+Use this approach when PyCharm has just launched and no project is currently open.
+
+1. Select **Get from VCS** in the top-right corner of the Welcome window.  
+2. In the **URL** field, paste your repository link (e.g., `https://github.com/username/repo-name.git`).  
+3. Choose the **Directory** where the project should be stored locally.  
+4. Click **Clone** to download and open the project.
+
+---
+
+## Method 2: Clone From Inside an Existing Project
+
+Use this when you already have a project open but want to clone another repository into a separate window.
+
+1. Open the top menu and select **Git > Clone…**  
+   - If **Git** isn’t visible, use **VCS > Get from Version Control** instead.  
+2. Enter the repository **URL**.  
+3. Select the local **Directory** where the new project should be created.  
+4. Click **Clone**.  
+5. When prompted, choose whether to open the project in a **New Window** or the **Current Window**.  
+   - **New Window** is usually the safer option to keep projects separate.
+
+---
+
+If you'd like, I can also add badges, installation instructions, or a project overview to turn this into a full README for GitHub.
