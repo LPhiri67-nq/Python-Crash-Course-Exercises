@@ -78,11 +78,7 @@ Execute any file with: python path/to/file.py
   
 <h2> Cloning a Repository in PyCharm (IDE) </h2>
 
-A clear, ready‑to‑use README-style guide for cloning a Git repository in PyCharm using two different methods. <p>
-
-
-
-
+A clear, ready‑to‑use README-style guide for cloning a Git repository in PyCharm using two different methods. 
 
 
 ## Method 1: Clone From the Welcome Screen (No Project Open)
@@ -96,7 +92,7 @@ Use this approach when PyCharm has just launched and no project is currently ope
 4. Click **Clone** to download and open the project.
 
 
-
+```
 ## Method 2: Clone From Inside an Existing Project
 
 Use this when you already have a project open but want to clone another repository into a separate window.
