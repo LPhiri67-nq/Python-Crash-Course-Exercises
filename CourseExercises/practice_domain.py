@@ -196,7 +196,7 @@ print (fruits)
                                                                                      
                                                                                      
 # Exercise String Reversal                                                           
-# Problem: Write a program that takes a string and reverses it (e.g., "Python" become
+# Problem: Write a program that takes a string and reverses it (e.g., "Python" becomes "nohtyP")
 # Purpose: This exercise demonstrates "Sequence Slicing."                            
 # Strings in Python are sequences, and mastering the slicing syntax is a powerful sho
 # ...that would take 5-10 lines of code in other languages.                          
@@ -263,7 +263,7 @@ for index in range(0, size):
     chars_list.append(sentence[index])                                               
                                                                                      
 vowels = ""                                                                          
-non_vowel_characters = ""                                                            
+non_vowels_characters = ""
                                                                                      
 for chars in chars_list:                                                             
     if chars == 'a' or chars == 'e' or chars == 'i' or chars == 'o' or  chars == 'u':
