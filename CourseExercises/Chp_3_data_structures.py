@@ -1,5 +1,5 @@
-# Numbers ar used quite often in programming to keep score in games, represent data in visualisations,
-# ...store information in web applications, and so on.
+# Numbers ar used quite often in programming to keep score in games,...
+# represent data in visualizations, store information in web applications, and so on.
 # Python treats numbers in several different ways, depending on how they're used.
 
 # Integers
@@ -86,7 +86,8 @@ print("To " +  invitees[2] + ", " + message.lstrip())
 # Print a second set of invitation messages, one for each person who is still in your list.
 
 print("Announcement: Updated Guest List")
-print(f"Unfortunately, due to unprecedented reasons, {invitees[1]} will not be able to attend the wedding.")
+print(f'''Unfortunately, due to unprecedented reasons, 
+      {invitees[1]} will not be able to attend the wedding.''')
 
 # Replacement Guest
 invitees[1] = "Peter"

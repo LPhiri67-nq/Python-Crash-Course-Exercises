@@ -27,9 +27,11 @@ else:
 
 for number in range(0, 10):
     if number == 0:
-        print(f" Current number: {number}, Previous Number: {number}, Sum: {number + number}")
+        print(f'''Current number: {number},
+              Previous Number: {number}, Sum: {number + number}''')
     else:
-        print(f" Current number: {number}, Previous Number: {number-1}, Sum: {number + (number-1)}")
+        print(f'''Current number: {number}, 
+              Previous Number: {number-1}, Sum: {number + (number-1)}''')
 
 # Alternatively:
 
@@ -57,7 +59,9 @@ string_example = "pynative"
 
 
 # Printing only even index chars
-# Method: Using a for loop - will process the resulting subset of characters individually.
+
+# Method:
+# Using a for loop - will process the resulting subset of characters individually.
 
 for index in range(0, 7):
     if index % 2 == 0:
@@ -146,15 +150,16 @@ print(f" After swap a = {a}, b = {b}")
 # Assignment: It then unpacks those values into the variables on the left.
 # This prevents the values of a from being overwritten by 'b' before its original value can be moved.
 
-#Clean code: 
-#This eliminates the need for three lines of code and an extra "temp" variable, making the script more readable.
+# Clean code:
+# This eliminates the need for three lines of code and an extra "temp" variable,...
+# ...making the script more readable.
 
 
 # Exercise 6: Calculating Factorial with a Loop                                      
                                                                                      
 # Problem: Write a program that calculates the factorial of a given number (e.g., 5!)
 # Purpose: This exercise explores "Mathematical Accumulation." A factorial (e.g., 5! 
-#...to maintain a running product across multiple iterations, which is a core pattern
+#...to maintain a running product across multiple iterations, which is a core pattern.
                                                                                      
                                                                                      
 input_number = int(input("Enter a number to calculate its factorial: "))             
@@ -170,8 +175,10 @@ print(f"The factorial of {input_number} is {factorial}")
                                                                                      
 # Loop from 1 to input_number(inclusive)                                             
                                                                                      
-# range(1, input_number + 1): Since the end of a range is exclusive, we use + 1 to en
-# Each pass of the loop updates the value of 'factorial', building the final result s
+# range(1, input_number + 1): Since the end of a range is exclusive,...
+# ...we use + 1 to ensure each pass of the loop updates the value of 'factorial',...
+# ...building the final results.
+
 for integer in range(1, input_number + 1):                                           
     factorial = factorial * integer                                                  
 print(f"The factorial of {input_number} is {factorial}")                             
@@ -198,7 +205,8 @@ print (fruits)
 # Exercise String Reversal                                                           
 # Problem: Write a program that takes a string and reverses it (e.g., "Python" becomes "nohtyP")
 # Purpose: This exercise demonstrates "Sequence Slicing."                            
-# Strings in Python are sequences, and mastering the slicing syntax is a powerful sho
+# Strings in Python are sequences,...
+# ...and mastering the slicing syntax is a powerful shortcut...
 # ...that would take 5-10 lines of code in other languages.                          
                                                                                      
                                                                                      

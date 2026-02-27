@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19f7b2e5-c71e-431f-996c-38fb2b35f6d6" name="Changes" comment="Updated Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonCrashCourseCodingExercisesProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonCrashCourseCodingExercisesProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseExercises/Chp_3_data_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseExercises/Chp_3_data_structures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CourseExercises/practice_domain.py" beforeDir="false" afterPath="$PROJECT_DIR$/CourseExercises/practice_domain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/phiri/PycharmProjects/PythonCrashCourseCodingExercisesProject",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
