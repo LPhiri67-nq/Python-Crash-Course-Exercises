@@ -16,20 +16,30 @@ favourite_pizzas = ["Hawaiian", "Chicken Supreme", "Pepperoni"]
 
 for pizza in favourite_pizzas:
     print(pizza)
-# Modify your for loop to print a sentence using the name of the pizza, instead of printing just the name of the pizza.
-# For each pizza, you should have one line of output containing a simple statement like "I like pepperoni pizza."
-    print(f"{pizza} pizza is the best family meal you can eat.")
+
+# Modify your for loop to print a sentence using the name of the pizza,...
+# ...instead of printing just the name of the pizza.
+
+# For each pizza, you should have one line of output containing a simple statement...
+# ...like "I like pepperoni pizza."
+
+print(f"{pizza} pizza is the best family meal you can eat.")
+
 # Add a line at the end of your program, outside the for loop, that states how much you like pizza.
+
 print("Peri Peri Chicken Pizza is my all time favourite!\n")
-# The output should consist of three or more lines about the kinds of pizza you like and then an additional sentence, such as I really love pizza!
+# The output should consist of three or more lines about the kinds of pizza you like...
+# ...and then an additional sentence, such as "I really love pizza!"
 
 # Exercise 4.2. Animals
 # Think of at least three different animals that have a common characteristic.
-# Store the names of these animals in a list, and then use a for loop to print out the name of each animal.
+# Store the names of these animals in a list,...
+# ...and then use a for loop to print out the name of each animal.
 
 reptiles = [ "Lizard", "Crocodile", "Bearded Dragon" ]
 for reptile in reptiles:
-    # Modify your program to print a statement about each animal, such as "A dog would make a great pet."
+    # Modify your program to print a statement about each animal,...
+    # ...such as "A {dog} would make a great pet."
     print(f"{reptile}s are cold-blooded vertebrates.")
 
 # Add a line at the end of your program, stating what these animals have in common.
@@ -53,7 +63,10 @@ for number in range(1, 1_000_001):
 
 
 # Exercise 4.5. Summing a Million
-# Make a list of the numbers from one to one million, and then use min() and max() to make sure your list actually starts at one and ends at one million.
+# Make a list of the numbers from one to one million,...
+# ...and then use min() and max() to make sure your list actually...
+# ...starts at one and ends at one million.
+
 numbers = list(range(1, 1_000_001))
 
 print(max(numbers))
@@ -79,8 +92,12 @@ for multiple in multiples_of_3:
 
 
 # Exercise 4.8: Cubes
-# A number raised to the third power is called a cube. For example,the cube of 2 is written as 2**3 in Python.
-# Make a list of the first 10 cubes (that is, the cube of each integer from 1 through 10), and use a for loop to print out the value of each cube.
+# A number raised to the third power is called a cube.
+# For example,the cube of 2 is written as 2**3 in Python.
+
+# Make a list of the first 10 cubes (that is, the cube of each integer from 1 through 10),...
+# ...and use a for loop to print out the value of each cube.
+
 list_of_cubes = list(range(1, 11))
 for value in list_of_cubes:
     cube = value ** 3
@@ -156,7 +173,9 @@ for pizza in friend_pizzas:
 
 
 #  Exercise 4-12. More Loops
-#  All versions of "foods.py" in the chapter section have avoided using for loops when printing, to save space.
+#  All versions of "foods.py" in the chapter section have avoided using for loops when printing,...
+#  ...to save space.
+
 #  Choose a version of "foods.py", and write two for loops to print each list of foods
 
 my_foods = ['pizza', 'falafel', 'carrot cake']
