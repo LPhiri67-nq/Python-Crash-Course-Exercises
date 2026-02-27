@@ -2,8 +2,9 @@
 
 # Exercise 1: Arithmetic Product and Conditional Logic
 
-# Problem: Write a Python function that accepts two integer numbers. If the product of the two numbers is less
-# than or equal to 1000, return their product; otherwise, return their sum.
+# Problem: Write a Python function that accepts two integer numbers. 
+# If the product of the two numbers is less than or equal to 1000,...
+# ...return their product; otherwise, return their sum.
 
 # Purpose: Learn basic control flow and the use of if-else statements.
 # Understand how code decisions change output based on a mathematical threshold.
@@ -21,7 +22,8 @@ else:
 
 # Exercise 2: Cumulative sum of a Range
 
-# Problem: Iterate through the first 10 numbers (0-9). In each iteration, print the current number, the previous number, and their sum.
+# Problem: Iterate through the first 10 numbers (0-9). 
+# In each iteration, print the current number, the previous number, and their sum.
 
 for number in range(0, 10):
     if number == 0:
@@ -44,7 +46,8 @@ for number in range(0, 10):
 
 # Exercise 3: String Indexing and Even slicing
 
-# Practice Problem: Display only those characters which are present at an index number in given string.
+# Practice Problem: 
+# Display only those characters which are present at an index number in given string.
 
 # Purpose: Understand how data is stored in memory using zero-based indexing.
 # In most languages, the first character is at position 0, the second at 1, and so on.
@@ -95,7 +98,8 @@ for index in range(0, length_of_string - 1, 2):
 
 # Exercise 4: String Slicing and Substring Removal
 
-# Problem: Write a function to remove characters from a string starting from index 0 up to n and a new string.
+# Problem: 
+# Write a function to remove characters from a string starting from index 0 up to n and a new string.
 
 # Purpose: This exercise demonstrates how to truncate data strings, a common data-cleaning task.
 
@@ -104,8 +108,14 @@ sample_string = input("Enter a string: ")
 
 # Exercise 5: Variable Swapping (The In-pace Method)
 
-# Problem: Write a program to swap the values of two variables, a and b, without using a third temporary variable
-# Purpose: This exercise will help you learn about memory efficiency and Python's special tuple unpacking feature.
+# Problem: 
+# Write a program to swap the values of two variables, a and b,...
+# ...without using a third temporary variable.
+
+# Purpose: 
+# This exercise will help you learn about memory efficiency...
+# ...and Python's special tuple unpacking feature.
+
 # In other languages like C or Java, you need a temporary variable to swap values safely.
 # In Python, you can swap values in one line without risking data loss.
 
@@ -129,13 +139,15 @@ a, b = b, a
 
 print(f" After swap a = {a}, b = {b}")
 
-# Simultaneous Evaluation: Python evaluates the entire right side (b, a) first, essentially holding both values...
-#...essentially holding both values in a temporary hidden structure (a tuple).
+# Simultaneous Evaluation: 
+# Python evaluates the entire right side (b, a) first,...
+# ...essentially holding both values in a temporary hidden structure (a tuple).
 
 # Assignment: It then unpacks those values into the variables on the left.
 # This prevents the values of a from being overwritten by 'b' before its original value can be moved.
 
-#Clean code: This eliminates the need for three lines of code and an extra "temp" variable, making the script more readable.
+#Clean code: 
+#This eliminates the need for three lines of code and an extra "temp" variable, making the script more readable.
 
 
 # Exercise 6: Calculating Factorial with a Loop                                      
@@ -277,7 +289,4 @@ nums = [45, 2, 89, 12, 7]
 max_value = max(nums)                                                                
 min_value = min(nums)                                                                
 print(f" Largest: {max_value}, Smallest: {min_value}")                               
-                                                                                     
-
-
-                                                                                                                                                                         
+                                                                                                                                                                                                                                                        
