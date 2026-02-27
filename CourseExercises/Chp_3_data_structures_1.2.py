@@ -13,7 +13,8 @@ import Chp_3_data_structures
 
 places_to_be = ["bali, indonesia", "maldives", "switzerland", "south Korea", "jerusalem, israel"]
 
-# Print your list in its original order. Don’t worry about printing the list neatly; just print it as a raw Python list.
+# Print your list in its original order.
+# Don’t worry about printing the list neatly; just print it as a raw Python list.
 print(places_to_be)
 
 # Use sorted() to print your list in alphabetical order without modifying the actual list.
@@ -22,22 +23,29 @@ print(sorted(places_to_be))
 # Show that your list is still in its original order by printing it.
 print(places_to_be)
 
-# Use sorted() to print your list in reverse-alphabetical order without changing the order of the original list.
+# Use sorted() to print your list in reverse-alphabetical order...
+# ...without changing the order of the original list.
 print(sorted(places_to_be, reverse=True))
 
 # Show that your list is still in its original order by printing it again.
 
 print(places_to_be)
 
-# Use reverse() to change the order of your list. Print the list to show that its order has changed.
+# Use reverse() to change the order of your list.
+# Print the list to show that its order has changed.
+
 places_to_be.reverse()
 print(places_to_be)
 
-# Use reverse() to change the order of your list again. Print the list to show it’s back to its original order.
+# Use reverse() to change the order of your list again.
+# Print the list to show it’s back to its original order.
+
 places_to_be.reverse()
 print(places_to_be)
 
-# Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
+# Use sort() to change your list so it’s stored in alphabetical order.
+# Print the list to show that its order has been changed.
+
 places_to_be.sort()
 
 print(places_to_be)
@@ -62,7 +70,8 @@ print(number_of_invitees)
 
 # Exercise 3.10: Every Function
 # Think of things you could store in a list.
-# Write a program that creates a list containing these items and then uses each function introduced at least once.
+# Write a program that creates a list containing these items...
+# ...and then uses each function introduced at least once.
 
 
 name_of_cars_from_a_to_c = ["Abarth", "Acura", "Bugatti", "BMW", "Buick", "Cadillac"]
