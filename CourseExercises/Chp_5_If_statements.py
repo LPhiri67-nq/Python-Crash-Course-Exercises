@@ -69,7 +69,6 @@ print(my_sisters_age <= my_age and my_sisters_age != my_Fathers_age)
 
 # Exercise 5-2: More Conditional Tests
 # You don’t have to limit the number of tests you create to 10.
-
 # Have at least one True and one False result for each of the following:
 
 # Tests for equality and inequality with strings
@@ -151,3 +150,5 @@ reported_Absentees = ["Emily", "Alice"]
 
 if reported_Absentees not in list_of_students:
     print("There's an imposter in the classroom.")
+else:
+    print("Record student attendance as normal.")
